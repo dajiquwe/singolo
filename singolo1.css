@@ -1,0 +1,187 @@
+html, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, sans-serif;
+}
+
+.wrapper {
+	max-width: 1020px;
+	margin: auto;
+}
+
+.header-wrapper {
+	height: 89px;
+	background-color: #2d303a;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	font-size: 25px;
+	line-height: 6px;
+	color: #ffffff;
+	font-weight: 100;
+	text-align: left;
+	text-indent: 40px;
+}
+
+.header-bottom {
+	height: 6px;
+	background-color: #323746;
+}
+
+.navigation {
+	display: flex;
+	margin-right: 40px;
+	
+}
+
+.navigation-link {
+	font-size: 12px;
+	line-height: 6px;
+	font-family: "Lato" , sans-serif;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 26px;
+}
+
+li:hover {
+	color: #f06c64;
+	list-style-type: none;
+}
+
+.starr {
+	color: #f06c64;
+}
+
+.promo-content {
+	width: 1020px;
+	height: 594px;
+	background-color: #f06c64;
+	position: absolute;
+}
+
+.promo-bottom {
+	height: 6px;
+	background-color: #ea676b;
+	position: absolute;
+	width: 1020px;
+	top: 689px;
+
+}
+
+.tools-wrapper {
+	width: 1020px;
+	height: 495px;
+	background-color: #f2f2f2;
+	margin-top:600px;
+
+}
+
+.tools-bottom {
+	height: 6px;
+	background-color: #ffffff;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+}
+
+.horizontal {
+	position: absolute;
+	right: 80px;
+	top: 70px;
+}
+
+.vertical {
+	position: absolute;
+	left: 110px;
+	top: -16px;
+}
+
+.slider_right {
+	position: absolute;
+	right: 40px;
+	bottom: 285px;
+}
+
+.slider_left {
+	position: absolute;
+	left: 42px;
+	bottom: 285px;
+}
+
+.Our-Services {
+
+	
+}
+
+.Our-Services h1 {
+	font-size: 32px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 1000;
+	text-align: left;
+	text-indent: 40px;
+	position: absolute;
+	margin-top: 66px;
+}
+
+.Our-Services p {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato", sans-serif;
+	margin-left: 40px;
+	margin-top: 66px;
+	line-height: 1.5;
+}
+
+.layout-3-colomn {
+	display: grid;
+	grid-template-columns: 20px 40px 60px;
+}
+
+.icon {
+	border: 3px solid #666d89;
+	border-radius: 59px;
+	
+}
+
+.pen {
+	margin-left: 80px;
+}
+
+.bulb {
+	margin-left: 340px;
+}
+
+.heart {
+	margin-left: 240px;
+}
+
+.phone {
+	float: left;
+}
+
+.buble {
+	float: left;
+}
+
+.star {
+	float: right;
+	margin-right: 280px;
+}
