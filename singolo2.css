@@ -1,0 +1,151 @@
+html, h1 { 
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	width: 1020px;
+	margin: auto; 
+	font-family: Lato;
+}
+
+.portfolio {
+	position: absolute;
+	background-color: #2d303a;
+	width: 1020px;
+	height: 864px;
+}
+
+.logo {
+	margin-left: 40px;
+	margin-top: 60px;
+	font-family: Lato, sans-serif;
+	color: #666d89;
+	font-size: 30px;
+	font-weight: 700;
+}	
+
+.text {
+	margin-left: 40px;
+	margin-top: 22px;
+	font-size: 18px;
+	letter-spacing: 0.006em;
+	color: #767e9e;
+}	
+
+.menu ul{
+	margin: 0; 
+    padding: 4px; 
+}
+
+.link {
+	list-style: none;
+	display: inline; 
+    margin-right: 5px;
+    border: 1px solid #666d89; 
+	border-radius: 5px;
+    padding: 5px 5px 5px 5px; 
+	font-size: 12px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #767e9e;
+}
+
+li:hover {
+	border: 1px solid white;
+}
+
+li a:hover {
+	color: white;
+}
+
+.images {
+	width: 940px;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: grid;
+	grid-template-columns: 220px 220px 220px 220px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.images img {
+	width: 220px;
+	height: 196px;
+}
+
+.portfolio-bottom {
+	width: 1020px;
+	height: 6px;
+	background-color: #323746;
+	position: absolute;
+	top: 864px;
+}
+
+.AboutUs {
+	width: 1020px;
+	height: 728px;
+	background-color: #f2f2f2;
+	position: absolute;
+	top: 870px;
+	
+}
+
+.logo2 {
+	margin-left: 40px;
+	margin-top: 68px;
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: Lato Light, sans-serif;
+	font-weight: 750;
+	text-align: left;
+}
+
+.text2 {
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 18.5px;
+	color: #767e9e;
+	font-weight: 300;
+	line-height: 1.5;
+	width: 940px;
+}
+
+.Us {
+	width: 940px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 48px;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-column-gap: 20px;
+}
+
+.Us p {
+	font-size: 12px;
+	color: #767e9e;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+
+.Us h2 {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: Lato, sans-serif;
+	font-weight: 750;
+	text-align: left;
+}
+
+.AboutUs-bottom {
+	position: absolute;
+	top: 1598px;
+	width: 1020px;
+	height: 6px;
+	background-color: #ffffff;
+}
