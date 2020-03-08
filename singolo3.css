@@ -1,0 +1,170 @@
+html, section {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	margin: auto;
+	width: 1020px;
+	font-family: Lato;
+}
+
+section {
+	position: absolute;
+	width: 1020px;
+	height: 648px;
+	background-color: #f06c64;
+}
+
+h1 {
+	margin-left: 40px;
+	margin-top: 70px;
+	font-size: 30px;
+	line-height: 18px;
+	color: #f0d8d9;
+	font-family: Lato, sans-serif;
+	word-spacing:  -0.1em;
+}
+
+input, textarea {
+	border: 1px solid #d6564f;
+	border-radius: 5px;
+	padding: 12px;
+	width: 100%;
+	background-color: #d6564f;
+}
+
+input::placeholder {
+	color: #f48c8f;
+}
+
+textarea::placeholder {
+	color: #f48c8f;
+}
+
+h3 {
+	color: #f0d8d9;
+}
+
+textarea {
+	font-size: 11px;
+	letter-spacing: -0.1em;
+	height: 200px;
+	
+}
+
+input {
+	font-size: 12px;
+}
+
+footer {
+	height: 76px;
+	background-color: #2d303a;
+	top: 655px;
+	width: 1020px;
+	position: absolute;
+}
+
+.form {
+	width: 620px;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 7px;
+	float: left;
+}
+
+.text  {
+	margin-left: 40px;
+	margin-top: 28px;
+	width: 940px;
+	font-size: 17px;
+	line-height: 30px;
+	color: #f0d8d9;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	word-spacing: -0.022em;
+}
+
+.text2 {
+	margin-top: -12px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #f0d8d9;
+	font-family: Lato;
+	font-weight: 400;
+	text-align: left;
+	margin-right: 20px;
+	word-spacing: 0.052em;
+	letter-spacing: 0.023em;
+}
+
+.email {
+	margin-top: -2px;
+}
+
+.subject {
+	margin-top: -2px;
+}
+
+.contactinformation {
+	margin-top: 40px;
+}
+
+.contactinformation span{
+	font-size: 12px;
+	line-height: 22px;
+	color: #f0d8d9;
+	font-family: Lato;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.location {
+	margin-left: 3px;
+	margin-right: 12px;
+	margin-top: 12px;
+	margin-bottom: 1px;
+}
+
+.phone {
+	margin-right: 12px;
+}
+
+.mail {
+	margin-right: 10px;
+}
+
+.bg {
+	margin-top: 228px;
+	height: 6px;
+
+	background-color: #ea676b;
+	border: 1px solid  #ea676b;
+}
+
+footer p {
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 13px;
+	color:#666d89
+}
+
+.images {
+	float: right;
+	margin-right: 40px;
+	margin-top: -40px;
+}
+
+.google {
+	margin-right: 2px;
+}
+
+.facebook {
+	margin-right: 2px;
+}
+
+.submit {
+	color: #f48c8f;
+}
