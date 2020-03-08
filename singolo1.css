@@ -1,4 +1,4 @@
-html, h1 {
+html, h1 , h3{
 	margin: 0;
 	padding: 0;
 }
@@ -50,9 +50,15 @@ body {
 	font-weight: normal;
 	text-align: left;
 	margin-left: 26px;
+	list-style-type: none;
 }
 
-li:hover {
+.navigation-link  a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
 	color: #f06c64;
 	list-style-type: none;
 }
@@ -128,60 +134,56 @@ h2 {
 	
 }
 
-.Our-Services h1 {
-	font-size: 32px;
+.Our-Services h2 {
+	font-size: 30px;
 	line-height: 18px;
 	color: #666d89;
-	font-family: "Lato";
-	font-weight: 1000;
-	text-align: left;
+	font-family: Lato, sans-serif;
+	font-weight: 600;
 	text-indent: 40px;
 	position: absolute;
 	margin-top: 66px;
 }
 
 .Our-Services p {
+	font-size: 17px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: Lato, sans-serif;
+	margin-left: 40px;
+	margin-top: 76px;
+	margin-bottom: 50px;
+	line-height: 1.8;
+	width: 940px;
+}
+
+.colomns h3 {
 	font-size: 18px;
 	line-height: 18px;
 	color: #666d89;
-	font-family: "Lato", sans-serif;
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+	text-align: left;
+}
+
+.icon1 {
+	float: left;
+	margin-right: 20px;
+}
+
+.texttext {
+	margin-left: 82px;
+}
+
+.colomns {
+	width: 940px;
 	margin-left: 40px;
-	margin-top: 66px;
-	line-height: 1.5;
-}
-
-.layout-3-colomn {
+	margin-right: 40px;
 	display: grid;
-	grid-template-columns: 20px 40px 60px;
-}
-
-.icon {
-	border: 3px solid #666d89;
-	border-radius: 59px;
-	
-}
-
-.pen {
-	margin-left: 80px;
-}
-
-.bulb {
-	margin-left: 340px;
-}
-
-.heart {
-	margin-left: 240px;
-}
-
-.phone {
-	float: left;
-}
-
-.buble {
-	float: left;
-}
-
-.star {
-	float: right;
-	margin-right: 280px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	grid-template-columns: 300px 300px 300px;
+	grid-column-gap: 20px;
+	grid-row-gap: 15px;
 }
