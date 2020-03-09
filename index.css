@@ -402,7 +402,7 @@ footer {
 .form {
 	width: 620px;
 	margin-left: 40px;
-	margin-right: 20px;
+	margin-right: 40px;
 	margin-top: 7px;
 	float: left;
 }
@@ -442,7 +442,7 @@ footer {
 
 .contactinformation {
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .contactinformation span{
@@ -472,11 +472,10 @@ footer {
 }
 
 .bg {
-	margin-top: 228px;
+	margin-top: 2246px;
 	height: 6px;
-
+	width: 1020px;
 	background-color: #ea676b;
-	border: 1px solid  #ea676b;
 }
 
 footer p {
@@ -503,5 +502,5 @@ footer p {
 .submit {
 	color: #f48c8f;
 	margin-top: -10px;
-	height: 5px;
+	width: 10%;
 }
