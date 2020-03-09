@@ -129,11 +129,6 @@ h2 {
 	bottom: 285px;
 }
 
-.Our-Services {
-
-	
-}
-
 .Our-Services h2 {
 	font-size: 30px;
 	line-height: 18px;
@@ -176,7 +171,7 @@ h2 {
 }
 
 .texttext {
-	margin-left: 55px;
+	margin-left: 82px;
 }
 
 .colomns {
@@ -235,10 +230,10 @@ h2 {
 .link {
 	list-style: none;
 	display: inline; 
-    margin-right: 5px;
-    border: 1px solid #666d89; 
+    	margin-right: 5px;
+    	border: 1px solid #666d89; 
 	border-radius: 5px;
-    padding: 5px 5px 5px 5px; 
+    	padding: 5px 5px 5px 5px; 
 	font-size: 12px;
 	text-align: center;
 }
