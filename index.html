@@ -3,7 +3,13 @@
  <head>
   <meta charset="utf-8">
   <title>singolo</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="singolo.css">
+  <style> 
+	@font-face {
+	font-family: Lato; 
+        src: url(assets/fonts/Lato.ttf);
+	}
+  </style>
  </head>
  <body>
 	<header class="header">
@@ -93,18 +99,18 @@
 				<li class="link"><a href="#">Artwork</a></li>
 			</ul>
 				<div class="images">
-					<img src="assets/images2/img1.png">
-					<img src="assets/images2/img2.png">
-					<img src="assets/images2/img3.png">
-					<img src="assets/images2/img4.png">
-					<img src="assets/images2/img5.png">
-					<img src="assets/images2/img6.png">
-					<img src="assets/images2/img7.png">
-					<img src="assets/images2/img8.png">
-					<img src="assets/images2/img9.png">
-					<img src="assets/images2/img10.png">
-					<img src="assets/images2/img11.png">
-					<img src="assets/images2/img12.png">
+					<img src="assets/images2/img1.jpg">
+					<img src="assets/images2/img2.jpg">
+					<img src="assets/images2/img3.jpg">
+					<img src="assets/images2/img4.jpg">
+					<img src="assets/images2/img5.jpg">
+					<img src="assets/images2/img6.jpg">
+					<img src="assets/images2/img7.jpg">
+					<img src="assets/images2/img8.jpg">
+					<img src="assets/images2/img9.jpg">
+					<img src="assets/images2/img10.jpg">
+					<img src="assets/images2/img11.jpg">
+					<img src="assets/images2/img12.jpg">
 				</div>
 		</div>
 		<div class="portfolio-bottom"></div>
@@ -144,18 +150,17 @@
 		<h1>Get a Quote</h1>
 		<p class="txt">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> 
 		<form class="form"> 
-		<p> <input type="text" placeholder="Name(Required)" > </p>
-		<p> <input type="text" placeholder="Email(Required)" class="email"> </p> 
+		<p> <input type="text" placeholder="Name(Required)" pattern="[a-zA-Z]+" required> </p>
+		<p> <input type="email" placeholder="Email(Required)" class="email" required> </p> 
 		<p> <input type="text" placeholder="Subject" class="subject"> </p> 
 		<p> <textarea cols="80" rows="13" placeholder="Describe your project in detail..."> </textarea> </p>
-		
+		<p> <input type="submit" value="submit" class="submit"><p>
 		</form>
 		<div class="contactinformation"><h3>Contact Information</h3><br>
 		<p class="txt2">Quisque henderit purus dapilus, ornare nibh vitae, viver-ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
 		<span><a href="#"><img src="assets/images3/location.png" class="location"></a>Elm St. 14/05 Lost City</span><br>
 		<span><img src="assets/images3/phone.png" class="phone"><a href="tel:+035283318635">03528 331 86 35</a></span><br>
 		<span><img src="assets/images3/mail.png" class="mail"><a href="mailto:info@singolo.com">info@singolo.com</a></span> 
-		<p> <input type="submit" value="submit" class="submit"><p>
 		</div>
 	</section>
 	<div class="bg"> </div>
