@@ -27,7 +27,7 @@ body {
 	font-size: 25px;
 	line-height: 6px;
 	color: #ffffff;
-	font-weight: 100;
+	font-weight: 500;
 	text-align: left;
 	text-indent: 40px;
 }
@@ -46,10 +46,10 @@ body {
 .navigation-link {
 	font-size: 12px;
 	line-height: 6px;
-	font-family: "Lato" , sans-serif;
-	font-weight: normal;
+	font-family: Lato, sans-serif;
 	text-align: left;
-	margin-left: 26px;
+	margin-left: 29px;
+	margin-top: 10px;
 	list-style-type: none;
 }
 
@@ -134,7 +134,7 @@ h2 {
 	line-height: 18px;
 	color: #666d89;
 	font-family: Lato, sans-serif;
-	font-weight: 600;
+	font-weight: 900;
 	text-indent: 40px;
 	position: absolute;
 	margin-top: 66px;
@@ -150,6 +150,7 @@ h2 {
 	margin-bottom: 50px;
 	line-height: 1.8;
 	width: 940px;
+	text-align: justify;
 }
 
 .colomns h3 {
@@ -218,23 +219,23 @@ h2 {
 	margin-left: 40px;
 	margin-top: 22px;
 	font-size: 18px;
-	letter-spacing: 0.006em;
 	color: #767e9e;
+	margin-bottom: 3px;
 }	
 
 .menu ul{
-	margin: 0; 
-    padding: 4px; 
+	margin-bottom: 25px; 
+    
 }
 
 .link {
 	list-style: none;
 	display: inline; 
-    	margin-right: 5px;
-    	border: 1px solid #666d89; 
+    margin-right: 5px;
+    border: 1px solid #666d89; 
 	border-radius: 5px;
-    	padding: 5px 5px 5px 5px; 
-	font-size: 12px;
+    padding: 5px; 
+	font-size: 11px;
 	text-align: center;
 }
 
@@ -263,7 +264,7 @@ a {
 
 .images img {
 	width: 220px;
-	height: 196px;
+	height: 187px;
 }
 
 .portfolio-bottom {
@@ -280,7 +281,7 @@ a {
 	background-color: #f2f2f2;
 	position: absolute;
 	top: 2064px;
-	
+	text-align: justify;	
 }
 
 .log2 {
@@ -297,10 +298,10 @@ a {
 .text2 {
 	margin-top: 30px;
 	margin-left: 40px;
-	font-size: 18.5px;
+	font-size: 17px;
 	color: #767e9e;
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.8;
 	width: 940px;
 }
 
@@ -318,7 +319,9 @@ a {
 	font-size: 12px;
 	color: #767e9e;
 	line-height: 1.5;
-	font-weight: 400;
+	font-weight: 300;
+	margin-bottom: 22px;
+	text-align: justify;
 }
 
 
@@ -382,7 +385,7 @@ h3 {
 textarea {
 	font-size: 11px;
 	letter-spacing: -0.1em;
-	height: 200px;
+	height: 170px;
 	
 }
 
@@ -399,9 +402,9 @@ footer {
 }
 
 .form {
-	width: 620px;
+	width: 592px;
 	margin-left: 40px;
-	margin-right: 40px;
+	margin-right: 48px;
 	margin-top: 7px;
 	float: left;
 }
@@ -416,6 +419,7 @@ footer {
 	font-family: Lato, sans-serif;
 	font-weight: 300;
 	word-spacing: -0.022em;
+	text-align: justify;
 }
 
 .txt2 {
@@ -426,9 +430,9 @@ footer {
 	font-family: Lato;
 	font-weight: 400;
 	text-align: left;
-	margin-right: 20px;
-	word-spacing: 0.052em;
+	margin-right: 40px;
 	letter-spacing: 0.023em;
+	text-align: justify;
 }
 
 .email {
@@ -506,4 +510,5 @@ footer p {
 	color: #f48c8f;
 	margin-top: -10px;
 	width: 10%;
+	height: 33px;
 }
