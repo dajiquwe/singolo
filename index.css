@@ -3,10 +3,11 @@ html, h1 , h3{
 	padding: 0;
 }
 
-body {
+body, html {
 	margin: 0;
 	padding: 0;
 	font-family: Lato, sans-serif;
+	scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -43,7 +44,11 @@ body {
 	
 }
 
-.navigation-link {
+.active {
+	color: blue!important;
+}
+
+.navigation li {
 	font-size: 12px;
 	line-height: 6px;
 	font-family: Lato, sans-serif;
@@ -53,7 +58,7 @@ body {
 	list-style-type: none;
 }
 
-.navigation-link  a {
+.navigation  a {
 	text-decoration: none;
 	color: #ffffff;
 }
@@ -72,6 +77,24 @@ a:hover {
 	height: 594px;
 	background-color: #f06c64;
 	position: absolute;
+}
+
+.slider_right {
+	position: absolute;
+	right: 40px;
+	bottom: 285px;
+}
+
+.slider_left {
+	position: absolute;
+	left: 42px;
+	bottom: 285px;
+}
+
+.vertical2 {
+	position: absolute;
+	left: 250px;
+	top: 50px;
 }
 
 .promo-bottom {
@@ -115,18 +138,6 @@ h2 {
 	position: absolute;
 	left: 110px;
 	top: -16px;
-}
-
-.slider_right {
-	position: absolute;
-	right: 40px;
-	bottom: 285px;
-}
-
-.slider_left {
-	position: absolute;
-	left: 42px;
-	bottom: 285px;
 }
 
 .Our-Services h2 {
