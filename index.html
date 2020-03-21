@@ -3,25 +3,25 @@
  <head>
   <meta charset="utf-8">
   <title>singolo</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="singolo.css">
   <style> 
 	@font-face {
 	font-family: Lato; 
-        src: url(assets/fonts/Lato.ttf);
+    src: url(assets/fonts/Lato.ttf);
 	}
   </style>
  </head>
  <body>
-	<header class="header">
+	<header class="header active" id="header">
 		<div class="wrapper header-wrapper">
 			<h1 class="logo">SINGOLO<span class="starr">*</span></h1>
 			<nav class="header_navigation">
-			<ul class="navigation"> 
-				<li class="navigation-link"><a href="#">HOME</a></li>
-				<li class="navigation-link"><a href="#">SERVICES</a></li>
-				<li class="navigation-link"><a href="#">PORTFOLIO</a></li>
-				<li class="navigation-link"><a href="#">ABOUT</a></li>
-				<li class="navigation-link"><a href="#">CONTACT</a></li>
+			<ul class="navigation" id="navigation"> 
+				<li><a href="#header" class=" active">HOME</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -31,15 +31,15 @@
 	<section class="promo">
 		<div class="wrapper">
 			<div class="promo-content">
+				<img src="assets/images/Red Dot.png" class="horizontal">
+				<img src="assets/images/Red Dott.png" class="vertical">	
 				<a href="#"><img src="assets/images/Slider/chev.png" class="slider_left"></a>
 				<a href="#"><img src="assets/images/Slider/cheva.png" class="slider_right"></a>
-				<img src="assets/images/Red Dot.png" class="horizontal">
-				<img src="assets/images/Red Dott.png" class="vertical">
 			</div>
 			<div class="promo-bottom"></div>
 		</div>
 	</section>
-	<section class="tools"> 
+	<section class="tools" id="services"> 
 		<div class="wrapper"> 
 			<div class="tools-wrapper"> 
 				<div class="Our-Services">
@@ -88,7 +88,7 @@
 		<div class="wrapper tools-bottom"></div>
 		</div>
 	</section>
-	<section class="body2">
+	<section class="body2" id="portfolio">
 	<div class="portfolio">
 			<h1 class="log">Portfolio</h1>
 			<p class="text">Duis mollis, est non commodo luctus, nisi erat porttiotor ligula, eget lacinia odio sem nec elit.</p>
@@ -114,7 +114,7 @@
 				</div>
 		</div>
 		<div class="portfolio-bottom"></div>
-		<div class="AboutUs">
+		<div class="AboutUs" id="about">
 			<h2 class="log2">About Us</h2>
 			<p class="text2">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat portittor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 			<div class="Us"> 
@@ -145,7 +145,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="body3">
+	<div class="body3" id="contact">
 	<section class="sec">
 		<h1>Get a Quote</h1>
 		<p class="txt">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p> 
@@ -174,5 +174,6 @@
 		</div>
 	</footer>
 	</div>
+    <script src="script.js"></script>
  </body>
 </html>
