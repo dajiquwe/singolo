@@ -31,16 +31,22 @@
 	<section class="promo">
 		<div class="wrapper">
 			<div class="promo-content">
-			<div class="slides">
-				<div class="slider">
-					<img src="assets/images/Red Dot.png" class="horizontal">
-					<img src="assets/images/Red Dott.png" class="vertical">	
-				</div>	
-				<div class="slider">
-				
+			<div class="slider">
+				<div class= "slides">
+					<div class= "slide1 shown" id="slide1">
+						<img src="assets/images/iphone.png" class="vertical" id="phone1">
+						<img src="assets/images/iphoneshadow.png" class="verticalshadow">
+						<img src="assets/images/verticalscreen.png" class="verticalscreen screen" id="vscreen">
+						<img src="assets/images/iphone.png" class="horizontal" id="phone2">
+						<img src="assets/images/iphoneshadow1.png" class="horizontalshadow">
+						<img src="assets/images/horizontalscreen.png" class="horizontalscreen screen" id="hscreen">
+					</div>	
+					<div class= "slide2 shown" id="slide2"> 
+						<img src="assets/images/Slider/slide2.png">
+					</div>
 				</div>
-				<a href="#"><img src="assets/images/Slider/chev.png" class="slider_left"></a>
-				<a href="#"><img src="assets/images/Slider/cheva.png" class="slider_right"></a>
+					<button class="slider_left" id = "prev" onclick="Prev()"><img src="assets/images/Slider/chev.png"></button>
+					<button class="slider_right" id = "next" onclick="Next()"><img src="assets/images/Slider/cheva.png"></button>
 			</div>
 			</div>
 			<div class="promo-bottom"></div>
@@ -100,25 +106,29 @@
 			<h1 class="log">Portfolio</h1>
 			<p class="text">Duis mollis, est non commodo luctus, nisi erat porttiotor ligula, eget lacinia odio sem nec elit.</p>
 			<ul class="menu"> 
-				<li class="link"><a href="#">All</a></li>
-				<li class="link"><a href="#">Web Design</a></li>
-				<li class="link"><a href="#">Graphic Design</a></li>
-				<li class="link"><a href="#">Artwork</a></li>
+			<div id="menu1">
+				<button class="link active">All</button>
+				<button class="link">Web Design</button>		
+				<button class="link">Graphic Design</button>
+				<button class="link">Artwork</button>
+			</div>	
 			</ul>
-				<div class="images">
-					<img src="assets/images2/img1.jpg">
-					<img src="assets/images2/img2.jpg">
-					<img src="assets/images2/img3.jpg">
-					<img src="assets/images2/img4.jpg">
-					<img src="assets/images2/img5.jpg">
-					<img src="assets/images2/img6.jpg">
-					<img src="assets/images2/img7.jpg">
-					<img src="assets/images2/img8.jpg">
-					<img src="assets/images2/img9.jpg">
-					<img src="assets/images2/img10.jpg">
-					<img src="assets/images2/img11.jpg">
-					<img src="assets/images2/img12.jpg">
-				</div>
+				<ul id="images">
+					<div class="images">
+						<li><img src="assets/images2/img1.jpg"></li>
+						<li><img src="assets/images2/img2.jpg"></li>
+						<li><img src="assets/images2/img3.jpg"></li>
+						<li><img src="assets/images2/img4.jpg"></li>
+						<li><img src="assets/images2/img5.jpg"></li>
+						<li><img src="assets/images2/img6.jpg"></li>
+						<li><img src="assets/images2/img7.jpg"></li>
+						<li><img src="assets/images2/img8.jpg"></li>
+						<li><img src="assets/images2/img9.jpg"></li>
+						<li><img src="assets/images2/img10.jpg"></li>
+						<li><img src="assets/images2/img11.jpg"></li>
+						<li><img src="assets/images2/img12.jpg"></li>
+					</div>
+				</ul>	
 		</div>
 		<div class="portfolio-bottom"></div>
 		<div class="AboutUs" id="about">
